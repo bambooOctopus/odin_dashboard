@@ -166,7 +166,7 @@ button:hover {
 }
 
 .card-div {
-    border: solid 1px black;
+    
     width: 75%;
     padding: 1rem;
     margin-right: 3rem;    
@@ -198,6 +198,11 @@ button:hover {
     border-radius: 6px;
     background-color: white;
 
+    transition: 0.2s ease-in;
+}
+
+.card:hover {
+    transform: scale(1.05);
 }
 
 .card-header {
@@ -216,16 +221,17 @@ button:hover {
 }
 
 .content-side-bar-div {
-    border: solid 1px black;
+   
     width: 20%;
     padding: 1rem;
+    margin-right: 6rem;
 }
 
 .announcements-div-body {
-    margin-top: .8rem;
+    margin-top: .5rem;
     margin-bottom: 1rem;
     background-color: #ffffff;
-    padding: .3rem .5rem;
+    padding: 1rem .8rem;
     border-radius: 12px;
 }
 
@@ -233,4 +239,28 @@ button:hover {
     margin-top: .5rem;
     margin-bottom: .5rem;
     padding-left: .3rem;
+}
+
+.trending-div-body {
+    margin-top: .5rem;
+    margin-bottom: 1rem;
+    background-color: #ffffff;
+    padding: 1rem .8rem;
+    border-radius: 12px;
+
+}
+
+.trending-card {
+    margin-bottom: .6rem;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+
+}
+
+.trending-circle {
+    width: 48px;
+    height: 48px;
+    background-color: lightblue;
+    border-radius: 50%;
 }
