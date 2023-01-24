@@ -39,11 +39,48 @@ body {
 
 .search-bar {
     grid-area: search-bar;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
+.text-input {
+    padding: .5rem .8rem;
+    font-size: 1rem;
+    height: 2rem;
+    width: 70%;
+    border: solid 1px lightgray;
+    text-align: right;
+    border-radius: 16px;
+    margin-left: 2rem;
+    background-color: var(--body-background);
+   
+    
 }
 
 .notifications {
     grid-area: notifications;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;    
+    padding: 2rem 3rem;
+
+}
+
+.notifications-bell-circle-div {
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    
+}
+
+.user-logo {
+    background-color: lightblue;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
 
 }
 
