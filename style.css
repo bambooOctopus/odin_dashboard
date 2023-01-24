@@ -86,6 +86,25 @@ body {
 
 .user-greeting {
     grid-area: user-greeting;
+    display: flex;
+    align-items: center;
+    
+}
+
+.greeting-circle {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: lightblue;
+    margin-left: 2rem;
+    margin-right: 2rem;
+
+}
+
+.greeting-text {
+    line-height: 2rem;
+    
+    font-weight: 600;
 }
 
 .buttons {
