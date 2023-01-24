@@ -1,0 +1,33 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    height: 100vh;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 13% 87%;
+    grid-template-rows: 20% 80%;
+
+    grid-template-areas: "side-bar header"
+                         "side-bar content-body";
+}
+
+.header {
+    border: solid 1px pink;
+    grid-area: header;
+
+}
+
+.side-bar {
+    border: solid 1px orange;
+    grid-area: side-bar;
+
+}
+
+.content-body {
+    border: solid 1px black;
+    grid-area: content-body;
+
+}
