@@ -85,6 +85,7 @@ body {
 }
 
 .user-greeting {
+    
     grid-area: user-greeting;
     display: flex;
     align-items: center;
@@ -96,8 +97,8 @@ body {
     height: 60px;
     border-radius: 50%;
     background-color: lightblue;
-    margin-left: 2rem;
-    margin-right: 2rem;
+    margin-left: 6rem;
+    margin-right: 3rem;
 
 }
 
@@ -109,7 +110,27 @@ body {
 
 .buttons {
     grid-area: buttons;
+    display: flex;    
+    align-items: center;
+    justify-content: space-evenly;
+}
 
+button {
+    padding: .5rem 3rem;
+    background-color: var(--side-bar-background);
+    color: white;
+    font-size: 18px;
+    border: none;
+    border-radius: 22px;
+    cursor: pointer;
+
+    transition: 0.2s ease-in;
+}
+
+button:hover {
+    background-color: #ffffff;
+    border: solid 1px var(--side-bar-background);
+    color: var(--side-bar-background);
 }
 
 .side-bar {    
