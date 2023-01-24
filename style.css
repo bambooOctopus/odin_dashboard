@@ -32,8 +32,7 @@ body {
                          "user-greeting buttons";
 }
 
-.header div {
-    border: solid 1px black;
+.header div {    
     padding: .3rem .5rem;
 }
 
@@ -103,8 +102,7 @@ body {
 }
 
 .greeting-text {
-    line-height: 2rem;
-    
+    line-height: 1.5rem;    
     font-weight: 600;
 }
 
@@ -162,4 +160,63 @@ button:hover {
     grid-area: content-body;
     background-color: var(--body-background);
 
+    padding: 2rem;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.card-div {
+    border: solid 1px black;
+    width: 75%;
+    padding: 1rem;
+    margin-right: 3rem;    
+}
+
+.card-div-header {
+    margin-left: 5rem;
+    margin-bottom: 1rem;
+}
+
+.card-div-body {
+    padding-left: 5rem;
+    width: 100%;
+    height: 83%;
+    display: grid;
+    column-gap: 4rem;
+    row-gap: 3rem;
+    grid-template-columns: 35% 35%;
+    grid-template-rows: 30% 30% 30%;
+
+
+}
+
+.card {    
+    border-left: solid 8px goldenrod;
+    
+    height: 100%;
+    padding: .8rem 2rem;
+    border-radius: 6px;
+    background-color: white;
+
+}
+
+.card-header {
+    margin-bottom: 1rem;
+}
+
+.card-footer {
+    margin-left: 12rem;
+    margin-top: 2rem;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.card-footer p {
+    border: solid 1px black;
+}
+
+.content-side-bar-div {
+    border: solid 1px black;
+    width: 20%;
+    padding: 1rem;
 }
