@@ -24,6 +24,36 @@ body {
     grid-area: header;
     background-color: var(--header-background);
 
+    display: grid;
+    grid-template-columns: 60% 40%;
+    grid-template-rows: 45% 55%;
+
+    grid-template-areas: "search-bar notifications"
+                         "user-greeting buttons";
+}
+
+.header div {
+    border: solid 1px black;
+    padding: .3rem .5rem;
+}
+
+.search-bar {
+    grid-area: search-bar;
+
+}
+
+.notifications {
+    grid-area: notifications;
+
+}
+
+.user-greeting {
+    grid-area: user-greeting;
+}
+
+.buttons {
+    grid-area: buttons;
+
 }
 
 .side-bar {    
