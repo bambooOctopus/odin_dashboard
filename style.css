@@ -3,6 +3,10 @@
     margin: 0;
 }
 
+a {
+    text-decoration: none;
+}
+
 :root {
     --side-bar-background: #1992d4;
     --header-background: #ffffff;
@@ -71,8 +75,13 @@ body {
     width: 30%;
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: space-evenly;   
     
+}
+
+.notifications-bell-circle-div a {
+    color: black;
+    text-decoration: none;
 }
 
 .user-logo {
@@ -144,6 +153,14 @@ button:hover {
 
 }
 
+.side-bar-link-div {
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    gap: .6rem;
+}
+
 .logo {
     margin-bottom: 3rem;
     font-size: 2rem;
@@ -169,7 +186,7 @@ button:hover {
     
     width: 75%;
     padding: 1rem;
-    margin-right: 3rem;    
+    /* margin-right: 3rem;     */
 }
 
 .card-div-header {
@@ -197,6 +214,7 @@ button:hover {
     padding: .8rem 2rem;
     border-radius: 6px;
     background-color: white;
+    cursor: pointer;
 
     transition: 0.2s ease-in;
 }
@@ -214,10 +232,11 @@ button:hover {
     margin-top: 2rem;
     display: flex;
     justify-content: space-evenly;
+    
 }
 
-.card-footer p {
-    border: solid 1px black;
+.card-footer a {
+    color: darkgray;
 }
 
 .content-side-bar-div {
@@ -263,4 +282,14 @@ button:hover {
     height: 48px;
     background-color: lightblue;
     border-radius: 50%;
+}
+
+.icon-hover {
+    color: black;
+}
+
+.emoji {
+    padding: 0;
+    margin: 0;
+    
 }
